@@ -24,7 +24,7 @@ public class LoginPresenterImpl extends BasePresenterImpl<LoginCompView,UserInfo
 
     @Override
     public void doLogin(String phone, String password, String userType) {
-        mloginInteractor.login(this,phone,password,userType);
+        mSubscription = mloginInteractor.login(this,phone,password,userType);
     }
 
     @Override

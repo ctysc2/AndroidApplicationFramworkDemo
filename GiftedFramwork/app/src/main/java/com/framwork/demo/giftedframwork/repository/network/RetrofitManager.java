@@ -9,6 +9,7 @@ import com.framwork.demo.giftedframwork.common.HostType;
 import com.framwork.demo.giftedframwork.mvp.entity.LoginEntity;
 import com.framwork.demo.giftedframwork.utils.SystemTool;
 import com.socks.library.KLog;
+import com.squareup.okhttp.Call;
 
 import java.io.File;
 import java.io.IOException;
