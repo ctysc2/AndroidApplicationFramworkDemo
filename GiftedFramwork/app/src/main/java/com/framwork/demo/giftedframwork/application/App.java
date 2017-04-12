@@ -20,7 +20,7 @@ public class App extends MultiDexApplication {
     private  ApplicationComponent mApplicationComponent;
     @Override
     public void onCreate() {
-        //test for git
+        //test for git hahah 
         super.onCreate();
         sAppContext = this;
         //初始化崩溃日志
