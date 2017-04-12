@@ -58,6 +58,9 @@ public class MainActivity extends BaseActivity implements LoginCompView {
     @OnClick({R.id.bt_login,R.id.bt_history,R.id.bt_clear})
     public void onClick(View view) {
         switch (view.getId()) {
+                
+                
+                //temp
             case R.id.bt_login:
                 RxBus.getInstance().post(new ToDoLoginEvent());
                 break;
